@@ -44,6 +44,7 @@ public class MyCacheInterceptor extends CacheInterceptor {
       cache.put(cacheKey, proceed);
       return proceed;
     }
+
     return result;
   }
 
